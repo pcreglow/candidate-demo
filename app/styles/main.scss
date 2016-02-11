@@ -30,7 +30,19 @@ $icon-font-path: '../fonts/';
 }
 
 .ralph {
-  padding: 15% 25% 5%;
+  padding: 15% 18% 5%;
+  width: 100%;
+  height: auto;
+}
+
+.elected-position,
+.election {
+  text-align: center;
+  padding: 10% 10% 2.5%;
+}
+
+.elected-position {
+  color: #00276c;
 }
 
 // /* Space out content a bit */
