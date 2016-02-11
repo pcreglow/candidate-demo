@@ -1,0 +1,36 @@
+{
+  "name": "candidate-demo",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.1"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~2.4.5"
+  },
+  "homepage": "https://github.com/pcreglow/candidate-demo",
+  "authors": [
+    "Phillip Creglow <phillipcreglow@msn.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "CC0-1.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
