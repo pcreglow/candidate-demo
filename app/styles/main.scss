@@ -11,6 +11,10 @@ $icon-font-path: '../fonts/';
   padding: 0.2em 0;
 }
 
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
 .banner {
   text-align: center;
   background: #00276c;
@@ -20,6 +24,12 @@ $icon-font-path: '../fonts/';
 
 .banner h2 {
   font-size: 50px;
+}
+
+.sub-banner {
+  color: #d10029;
+  background: #fff;
+  padding: 0.5%;
 }
 
 .intro {
@@ -38,13 +48,34 @@ $icon-font-path: '../fonts/';
 .elected-position,
 .election {
   text-align: center;
-  padding: 10% 10% 2.5%;
+  padding: 10% 5% 1%;
 }
 
-.elected-position {
+.elected-position h2 {
   color: #00276c;
+  font-size: 42px;
+  font-weight: bold;
 }
 
+.election {
+  background: #fff;
+  padding: 2.5%;
+  margin: 2%;
+  border-radius: 5px;
+  box-shadow: 3px 3px #d10029;
+}
+
+.election h2 {
+  color: #d10029;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.election h3 {
+  color: #00276c;
+  font-size: 32px;
+  font-weight: bold;
+}
 // /* Space out content a bit */
 // body {
 //   padding-top: 20px;
