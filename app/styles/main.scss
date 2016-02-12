@@ -94,6 +94,16 @@ body {
   font-weight: bold;
 }
 
+.election a {
+  color: #00276c;
+  text-decoration: underline;;
+}
+
+.election a:hover {
+  color: #d10029;
+  text-decoration: underline;;
+}
+
 #about {
   background: #d10029;
 }
