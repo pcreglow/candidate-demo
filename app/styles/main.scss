@@ -147,10 +147,25 @@ body {
 }
 
 .checklist li {
-  text-align: left;
-  list-style-type: none;
   color: #00276c;
+}
+
+.last-name li {
+  color: #fff;
+  padding: 0 35%;
+}
+
+.checklist li,
+.last-name li {
+  list-style-type: none;
+  text-align: left;
   font-size: 26px;
+}
+
+.last-name h2,
+.last-name p {
+  text-align: left;
+  display: inline;
 }
 
 #issues {
