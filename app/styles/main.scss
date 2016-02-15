@@ -138,12 +138,19 @@ body {
   font-size: 20px;
 }
 
-.checklist {
+.checklist,
+.quote {
     border-radius: 8px;
     background: #fff;
     width: 90%;
     margin: 5%;
     padding: 5%;
+}
+
+.quote h3 {
+  color: #00276c;
+  text-decoration: none;
+  padding: 1% 2.5%;
 }
 
 .checklist li {
