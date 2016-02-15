@@ -179,8 +179,22 @@ body {
   background: #fff;
 }
 
-.issues {
-  padding: 5% 5% 50%;
+.issues h3 {
+  padding: 1%;
+  color: #000;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.county-duty h2 {
+  color: #00276c;
+  text-align: center;
+  font-size: 52px;
+}
+
+.county-duty h4 {
+  color: #d10029;
+  text-align: center;
 }
 
 #contact {
