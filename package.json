@@ -40,7 +40,7 @@
   },
   "name": "candidate-demo",
   "description": "Candidate Landing Page Demo - TS",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "gulpfile.babel.js",
   "directories": {
     "test": "test"
